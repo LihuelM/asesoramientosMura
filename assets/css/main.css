@@ -1681,7 +1681,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: #303642;
 			}
 
 			input[type="button"].style1:active,
@@ -1689,7 +1689,7 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760;
+				background-color: #303642;
 			}
 
 		input[type="button"].style2,
@@ -1707,7 +1707,9 @@ input, select, textarea {
 			input[type="reset"].style2:hover,
 			button.style2:hover,
 			.button.style2:hover {
-				box-shadow: inset 0px 0px 2px 0px #606167;
+				/* box-shadow: inset 0px 0px 2px 0px #606167; */
+				background-color: #303642;
+				color: #FFF;
 			}
 
 			input[type="button"].style2:active,
@@ -1732,7 +1734,7 @@ input, select, textarea {
 			input[type="reset"].style3:hover,
 			button.style3:hover,
 			.button.style3:hover {
-				background-color: #3f434b;
+				background-color: #303642;
 			}
 
 			input[type="button"].style3:active,
@@ -1740,7 +1742,7 @@ input, select, textarea {
 			input[type="reset"].style3:active,
 			button.style3:active,
 			.button.style3:active {
-				background-color: #1f232b;
+				background-color: #303642;
 			}
 
 /* List */
@@ -1854,6 +1856,10 @@ input, select, textarea {
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
+		}
+
+		.feature-list h3.contact {
+			color: #FFF !important;
 		}
 
 			.feature-list h3:before {
