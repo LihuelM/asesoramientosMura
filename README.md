@@ -5,7 +5,7 @@ Landing Page de la empresa Asesoramiento Mura.
 
 ------------
 
-Demo del proyecto: https://lihuelm.github.io/Animationland/
+Demo del proyecto: https://lihuelm.github.io/asesoramientosMura/
 
 -------
 
