@@ -1586,11 +1586,13 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
+	.image,
+	.image-hover {
 		display: inline-block;
 	}
 
-		.image img {
+		.image img,
+		.image-hover img {
 			display: block;
 			width: 100%;
 		}
@@ -1600,9 +1602,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.image.left {
+		.image-hover.left {
 			float: left;
-			margin: 0 2em 2em 0;
+			margin: 2.5em 0em;
+    		width: 80px;
 		}
 
 		.image.centered {
@@ -1620,6 +1623,14 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
+
+		.image-hover {
+			transition: transform 0.3s ease;
+		}
+		
+		.image-hover:hover {
+			transform: scale(1.5);
+		}		
 
 /* Button */
 
