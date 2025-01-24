@@ -1448,7 +1448,7 @@ input, select, textarea {
 
 	header.style1 {
 		text-align: center;
-		padding: 3em 0 3em 0;
+		padding: 3em 0 1em 0;
 	}
 
 		header.style1 h2 {
@@ -1967,7 +1967,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
-		padding: 6em 0 9em 0;
+		padding: 4em 0 9em 0;
 	}
 
 		.wrapper .title {
@@ -2286,7 +2286,7 @@ input, select, textarea {
 		background: #282b34 url("images/overlay.png");
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
-		padding-bottom: 6em;
+		padding-bottom: 2em;
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
@@ -2355,8 +2355,8 @@ input, select, textarea {
 		}
 
 		#footer header.style1 {
-			padding-bottom: 6em;
-			margin-bottom: 6em;
+			padding-bottom: 4em;
+			margin-bottom: 4em;
 			border-bottom: solid 1px rgba(255, 255, 255, 0.05);
 		}
 
@@ -2384,8 +2384,8 @@ input, select, textarea {
 
 	#copyright {
 		text-align: center;
-		padding-top: 6em;
-		margin-top: 6em;
+		padding-top: 4em;
+		margin-top: 4em;
 		border-top: solid 1px rgba(255, 255, 255, 0.05);
 	}
 
